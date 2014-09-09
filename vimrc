@@ -26,3 +26,5 @@ imap <C-e> <End>
 autocmd BufReadPre,FileReadPre *.hs
       \ :set colorcolumn=80
 
+" plugin config
+let g:pymode_rope = 0
