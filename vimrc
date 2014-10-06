@@ -5,6 +5,8 @@ filetype plugin indent on
 let g:zenburn_high_Contrast = 1
 colorscheme zenburn
 
+set hlsearch
+
 set et ts=2 sts=2 sw=2
 
 if has("gui_running")
