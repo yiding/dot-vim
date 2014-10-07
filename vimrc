@@ -6,6 +6,7 @@ let g:zenburn_high_Contrast = 1
 colorscheme zenburn
 
 set hlsearch
+set foldlevel=1
 
 set et ts=2 sts=2 sw=2
 
