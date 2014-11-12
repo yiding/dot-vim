@@ -4,6 +4,8 @@ filetype plugin indent on
 
 let g:zenburn_high_Contrast = 1
 colorscheme zenburn
+hi Visual        guibg=#2f2f2f
+hi VisualNOS        guibg=#2f2f2f
 
 set hlsearch
 set foldlevel=1
