@@ -49,3 +49,9 @@
 [submodule "bundle/vim-flow"]
 	path = bundle/vim-flow
 	url = https://github.com/facebook/vim-flow.git
+[submodule "bundle/vim-hack"]
+	path = bundle/vim-hack
+	url = https://github.com/hhvm/vim-hack.git
+[submodule "bundle/vim-colors-solarized"]
+	path = bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
