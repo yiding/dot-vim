@@ -29,8 +29,19 @@ autocmd FileType javascript,python,c,cpp
 imap <C-a> <C-o>^
 imap <C-e> <End>
 
-autocmd BufReadPre,FileReadPre *.hs
-      \ :set colorcolumn=80
-
 " plugin config
 let g:pymode_rope = 0
+
+" commandt
+let g:CommandTFileScanner="watchman"
+let g:CommandTTraverseSCM="file"
+let g:CommandTMaxFiles = 5000000
+let g:CommandTInputDebounce = 500
+let g:CommandTMaxHeight = 20
+
+" colorcolumn for different filetypes
+autocmd BufNewFile,BufRead *.js,*.py,*.c,*.cpp 
+      \ setl colorcolumn=80
+
+autocmd BufNewFile,BufRead *.hs,*.java
+      \ setl colorcolumn=120
