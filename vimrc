@@ -45,3 +45,6 @@ autocmd BufNewFile,BufRead *.js,*.py,*.c,*.cpp
 
 autocmd BufNewFile,BufRead *.hs,*.java
       \ setl colorcolumn=120
+
+" disable visual bell
+set vb t_vb=
