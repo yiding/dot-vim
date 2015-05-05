@@ -19,7 +19,7 @@ if has("gui_running")
   set fillchars=vert:│
 end
 
-if &term == "screen"
+if &term == "screen" || &term == "xterm"
   set t_Co=256
 end
 
@@ -42,7 +42,7 @@ let g:CommandTInputDebounce = 200
 let g:CommandTMaxHeight = 20
 
 " colorcolumn for different filetypes
-autocmd BufNewFile,BufRead *.js,*.py,*.c,*.cpp 
+autocmd BufNewFile,BufRead *.js,*.py,*.c,*.cpp,*.ml,*.php
       \ setl colorcolumn=80
 
 autocmd BufNewFile,BufRead *.hs,*.java
@@ -56,3 +56,6 @@ let g:flow#enable = 0
 
 " syntastic
 let g:syntastic_auto_loc_list = 2
+
+" watch changes
+autocmd BufEnter * checktime
