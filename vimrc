@@ -12,6 +12,8 @@ set foldlevel=1
 
 set et ts=2 sts=2 sw=2
 
+set noswapfile
+
 if has("gui_running")
   set guioptions=gM
   set fillchars=vert:│
@@ -36,7 +38,7 @@ let g:pymode_rope = 0
 let g:CommandTFileScanner="watchman"
 let g:CommandTTraverseSCM="file"
 let g:CommandTMaxFiles = 5000000
-let g:CommandTInputDebounce = 500
+let g:CommandTInputDebounce = 200
 let g:CommandTMaxHeight = 20
 
 " colorcolumn for different filetypes
@@ -48,3 +50,9 @@ autocmd BufNewFile,BufRead *.hs,*.java
 
 " disable visual bell
 set vb t_vb=
+
+" disable vim-flow's typecheck in favor of syntastic
+let g:flow#enable = 0
+
+" syntastic
+let g:syntastic_auto_loc_list = 2
