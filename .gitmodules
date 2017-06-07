@@ -1,15 +1,6 @@
 [submodule "bundle/a.vim"]
   path = bundle/a.vim
 	url = https://github.com/vim-scripts/a.vim.git
-[submodule "bundle/python-mode"]
-	path = bundle/python-mode
-	url = https://github.com/klen/python-mode
-[submodule "bundle/typescript-tools"]
-	path = bundle/typescript-tools
-	url = https://github.com/clausreinke/typescript-tools.git
-[submodule "bundle/typescript-vim"]
-	path = bundle/typescript-vim
-	url = https://github.com/leafgarland/typescript-vim.git
 [submodule "bundle/vim-ctrlspace"]
 	path = bundle/vim-ctrlspace
 	url = https://github.com/szw/vim-ctrlspace.git
@@ -37,12 +28,6 @@
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
-[submodule "bundle/command-t"]
-	path = bundle/command-t
-	url = https://github.com/wincent/command-t.git
-[submodule "bundle/syntastic"]
-	path = bundle/syntastic
-	url = https://github.com/scrooloose/syntastic.git
 [submodule "bundle/vim-flow"]
 	path = bundle/vim-flow
 	url = https://github.com/facebook/vim-flow.git
@@ -52,9 +37,6 @@
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
-[submodule "bundle/vim-clang-format"]
-	path = bundle/vim-clang-format
-	url = https://github.com/rhysd/vim-clang-format.git
 [submodule "bundle/vim-better-whitespace"]
 	path = bundle/vim-better-whitespace
 	url = https://github.com/ntpeters/vim-better-whitespace.git
