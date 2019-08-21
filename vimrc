@@ -1,4 +1,5 @@
 execute pathogen#infect()
+set hidden
 syntax on
 filetype plugin indent on
 
