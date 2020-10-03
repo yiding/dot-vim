@@ -35,13 +35,6 @@ imap <C-e> <End>
 " plugin config
 let g:pymode_rope = 0
 
-" commandt
-let g:CommandTFileScanner="watchman"
-let g:CommandTTraverseSCM="file"
-let g:CommandTMaxFiles = 5000000
-let g:CommandTInputDebounce = 200
-let g:CommandTMaxHeight = 20
-
 " colorcolumn for different filetypes
 autocmd BufNewFile,BufRead *.js,*.py,*.c,*.cpp,*.ml,*.php
       \ setl colorcolumn=80
@@ -51,9 +44,6 @@ autocmd BufNewFile,BufRead *.hs,*.java
 
 " disable visual bell
 set vb t_vb=
-
-" disable vim-flow's typecheck in favor of syntastic
-let g:flow#enable = 0
 
 " syntastic
 let g:syntastic_auto_loc_list = 2

@@ -7,15 +7,9 @@
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
-[submodule "bundle/vim-js-indent"]
-	path = bundle/vim-js-indent
-	url = https://github.com/jason0x43/vim-js-indent.git
 [submodule "bundle/vim-misc"]
 	path = bundle/vim-misc
 	url = https://github.com/xolox/vim-misc.git
-[submodule "bundle/vim-notes"]
-	path = bundle/vim-notes
-	url = https://github.com/xolox/vim-notes.git
 [submodule "bundle/vim-sensible"]
 	path = bundle/vim-sensible
 	url = https://github.com/tpope/vim-sensible.git
@@ -28,12 +22,6 @@
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
-[submodule "bundle/vim-flow"]
-	path = bundle/vim-flow
-	url = https://github.com/facebook/vim-flow.git
-[submodule "bundle/vim-hack"]
-	path = bundle/vim-hack
-	url = https://github.com/hhvm/vim-hack.git
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
